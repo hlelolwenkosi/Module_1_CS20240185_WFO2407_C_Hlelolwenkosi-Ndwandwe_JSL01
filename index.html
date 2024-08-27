@@ -3,15 +3,22 @@
 <head>
     <title>Pet Adoption Validator</title>
     <link rel="stylesheet" href="index.css">
-    <script src="script.js" defer></script>
+    <script src="script.js" defer></script> <!-- Link to the external JavaScript file -->
 </head>
 <body>
     <h2>Pet Adoption Syntax Validator</h2>
     <h3>Note to all SPCA volunteers 📝</h3>
     <p>All pet adoption codes start with "pet_" and then the pet's birth year and name.</p>
     <p><strong>Example:</strong> pet_2015Forrest</p>
+    
+    <!-- Input for entering pet adoption details -->
     <input type="text" id="petInput" placeholder="Enter pet adoption detail">
+    
+    <!-- Button that triggers the validation -->
     <button onclick="validateSyntax()">Validate</button>
+    
+    <!-- Paragraph to display the result -->
     <p id="result"></p>
 </body>
 </html>
+
